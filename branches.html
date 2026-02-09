@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TNB Logistics Co.,Ltd</title>
+  <meta name="description" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="scr/assets/logo_company/TNB_logo.png" />
+
+  <!-- Google Fonts - Sarabun -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Model Viewer for 3D -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ============================================
+       Header / Navigation
+       ============================================ -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <img src="scr/assets/logo_company/TNB_logo_small.png" alt="TNB Logo" />
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-dropdown">
+          <a href="index.html#services" class="nav-link active dropdown-toggle">บริการของเรา <span
+              class="dropdown-arrow">▼</span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="domestic.html" class="dropdown-link">บริการขนส่งสินค้าในประเทศ </a>
+            </li>
+            <li>
+              <a href="shuttletruckservice.html" class="dropdown-link">บริการรถรับ–ส่งระหว่างคลังสินค้า</a>
+            </li>
+            <li>
+              <a href="import-export.html" class="dropdown-link">บริการขนส่งตู้คอนเทนเนอร์นำเข้า–ส่งออก</a>
+            </li>
+            <li>
+              <a href="container_arrangement.html" class="dropdown-link">บริการจัดการตู้คอนเทนเนอร์และลานตู้สินค้า</a>
+            </li>
+            <li>
+              <a href="nationwide_distribution.html" class="dropdown-link">บริการกระจายสินค้าทั่วประเทศ</a>
+            </li>
+            <li>
+              <a href="truck_fleetsupport.html" class="dropdown-link">บริการที่จอดรถบรรทุกและบริหารพื้นที่จอด</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="index.html#about" class="nav-link dropdown-toggle">เกี่ยวกับเรา <span
+              class="dropdown-arrow">▼</span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="company.html" class="dropdown-link">บริษัท TNB</a>
+            </li>
+            <li>
+              <a href="expertise.html" class="dropdown-link">ความเชี่ยวชาญของเรา</a>
+            </li>
+            <li><a href="vision.html" class="dropdown-link">วิสัยทัศน์</a></li>
+            <li>
+              <a href="performance.html" class="dropdown-link">ผลประกอบการ</a>
+            </li>
+            <li><a href="organization.html" class="dropdown-link">องค์กร</a></li>
+          </ul>
+        </li>
+        <li><a href="partners.html" class="nav-link">พันธมิตร</a></li>
+        <li><a href="ourtrucktypes.html" class="nav-link">ประเภทรถ</a></li>
+        <li><a href="technology.html" class="nav-link">เทคโนโลยี</a></li>
+        <li><a href="branches.html" class="nav-link">สาขา</a></li>
+        <li><a href="contact.html" class="nav-link">ติดต่อเรา</a></li>
+        <li><a href="#" class="btn btn-primary">Login ↗</a></li>
+      </ul>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="section branches-section section-page-header" id="branches">
+    <div class="container">
+      <div class="branches-intro animate-on-scroll">
+
+        <h2 class="section-title">
+          สาขาของเรา
+        </h2>
+        <p class="section-subtitle">
+          เครือข่ายสาขาและจุดบริการยุทธศาสตร์
+        </p>
+      </div>
+
+
+      <div class="branch-wrapper">
+
+        <!-- LEFT : IMAGE -->
+
+        <div class="branch-image">
+          <img src="scr/assets/thailand-map-transparent.png" alt="Thailand Map">
+        </div>
+
+        <!-- RIGHT : CONTENT -->
+        <div class="branch-content">
+
+          <div class="branch-item">
+            <span class="no">01</span>
+            <div>
+              <h3>สาขาบางแสน (สำนักงานใหญ่)</h3>
+              <p>ศูนย์กลางการบริหารจัดการการขนส่งภายในประเทศ (Domestic Transportation)</p>
+              <span class="emp">จำนวนพนักงาน 25 คน</span>
+            </div>
+          </div>
+
+          <div class="branch-item">
+            <span class="no">02</span>
+            <div>
+              <h3>สาขาแหลมฉบัง</h3>
+              <p>
+                ให้บริการจัดจองตู้คอนเทนเนอร์และพื้นที่ฝากวางตู้ (Container Drop Yard)
+              </p>
+              <span class="emp">จำนวนพนักงาน 30 คน</span>
+            </div>
+          </div>
+
+          <div class="branch-item">
+            <span class="no">03</span>
+            <div>
+              <h3>สาขาบางกะดี</h3>
+              <p>
+                เชี่ยวชาญการให้บริการรถ Shuttle รับ-ส่งสินค้าระหว่างคลังสินค้า (WH <-> WH) และการจัดการตู้คอนเทนเนอร์
+              </p>
+              <span class="emp">จำนวนพนักงาน 25 คน</span>
+            </div>
+          </div>
+
+          <div class="branch-item upcoming">
+            <span class="no">04</span>
+            <div>
+              <h3>สาขาลาดกระบัง</h3>
+              <p>ศูนย์กระจายสินค้าและลานจอดรถขนาด 9,000 ตร.ม. ตั้งอยู่ใกล้กับ ICD เพื่อความรวดเร็วในการขนส่ง</p>
+              <span class="emp">เปิดบริการ มิ.ย. 2026</span>
+            </div>
+          </div>
+
+          <div class="branch-total">
+            จำนวนพนักงานทั้งหมด : <strong>80 คน</strong>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Back to Services -->
+      <div class="back-link animate-on-scroll" style="margin-top: 60px">
+        <a href="index.html#services" class="btn btn-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+            width="18" height="18">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+          </svg>
+          กลับไปหน้าบริการ
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <nav class="footer-nav">
+          <a href="index.html#about" class="footer-link">เกี่ยวกับเรา</a>
+          <a href="branches.html" class="footer-link">สาขา</a>
+          <a href="ourtrucktypes.html" class="footer-link">ประเภทรถ</a>
+        </nav>
+
+
+        <div class="footer-copyright">© 2026 TNB Logistics Co., Ltd. All Rights Reserved</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts.js"></script>
+</body>
+
+</html>

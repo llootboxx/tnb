@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TNB Logistics Co.,Ltd</title>
+  <meta name="description" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="scr/assets/logo_company/TNB_logo.png" />
+
+  <!-- Google Fonts - Sarabun -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Model Viewer for 3D -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ============================================
+       Header / Navigation
+       ============================================ -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <img src="scr/assets/logo_company/TNB_logo_small.png" alt="TNB Logo" />
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-dropdown">
+          <a href="index.html#services" class="nav-link active dropdown-toggle">บริการของเรา <span
+              class="dropdown-arrow">▼</span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="domestic.html" class="dropdown-link">บริการขนส่งสินค้าในประเทศ </a>
+            </li>
+            <li>
+              <a href="shuttletruckservice.html" class="dropdown-link">บริการรถรับ–ส่งระหว่างคลังสินค้า</a>
+            </li>
+            <li>
+              <a href="import-export.html" class="dropdown-link">บริการขนส่งตู้คอนเทนเนอร์นำเข้า–ส่งออก</a>
+            </li>
+            <li>
+              <a href="container_arrangement.html" class="dropdown-link">บริการจัดการตู้คอนเทนเนอร์และลานตู้สินค้า</a>
+            </li>
+            <li>
+              <a href="nationwide_distribution.html" class="dropdown-link">บริการกระจายสินค้าทั่วประเทศ</a>
+            </li>
+            <li>
+              <a href="truck_fleetsupport.html" class="dropdown-link">บริการที่จอดรถบรรทุกและบริหารพื้นที่จอด</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="#about" class="nav-link dropdown-toggle">เกี่ยวกับเรา <span class="dropdown-arrow">▼</span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="company.html" class="dropdown-link">บริษัท TNB</a>
+            </li>
+            <li>
+              <a href="expertise.html" class="dropdown-link">ความเชี่ยวชาญของเรา</a>
+            </li>
+            <li><a href="vision.html" class="dropdown-link">วิสัยทัศน์</a></li>
+            <li>
+              <a href="performance.html" class="dropdown-link">ผลประกอบการ</a>
+            </li>
+            <li><a href="organization.html" class="dropdown-link">องค์กร</a></li>
+          </ul>
+        </li>
+        <li><a href="partners.html" class="nav-link">พันธมิตร</a></li>
+        <li><a href="ourtrucktypes.html" class="nav-link">ประเภทรถ</a></li>
+        <li><a href="technology.html" class="nav-link">เทคโนโลยี</a></li>
+        <li><a href="branches.html" class="nav-link">สาขา</a></li>
+        <li><a href="contact.html" class="nav-link">ติดต่อเรา</a></li>
+        <li><a href="#" class="btn btn-primary">Login ↗</a></li>
+      </ul>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============================================
+       Hero Section
+       ============================================ -->
+  <section class="hero-new" id="hero">
+    <div class="hero-new-container">
+      <!-- Layered frames: Red (back) > Dark (middle) > Image (front) -->
+      <div class="hero-frame-wrapper">
+        <!-- glass rounded frame (background) -->
+        <div class="hero-glass-frame"></div>
+        <!-- Dark iPad-like frame with image inside -->
+        <div class="hero-dark-frame">
+          <img src="scr/assets/homepage.png" alt="homepage" class="hero-main-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Services Section
+       ============================================ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header animate-on-scroll"></div>
+
+      <div class="services-grid">
+        <a href="domestic.html" class="service-card-link">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="var(--color-primary)" stroke="var(--color-primary)"
+                stroke-width="0.4" class="bi bi-truck" viewBox="0 0 16 16">
+                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 
+                  1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 
+                  0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 
+                  0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+              </svg>
+            </div>
+            <h3 class="service-title">Domestic Transportation</h3>
+            <p class="service-desc">บริการขนส่งสินค้าในประเทศ</p>
+          </div>
+        </a>
+
+        <a href="shuttletruckservice.html" class="service-card-link">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="var(--color-primary)" stroke="var(--color-primary)"
+                stroke-width="0.4" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 
+                  0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5" />
+              </svg>
+            </div>
+            <h3 class="service-title">Shuttle Truck Service</h3>
+            <p class="service-desc">บริการรถรับ–ส่งระหว่างคลังสินค้า</p>
+          </div>
+        </a>
+
+
+        <a href="import-export.html" class="service-card-link">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="var(--color-primary)" stroke="var(--color-primary)"
+                stroke-width="0.35" class="bi bi-globe" viewBox="0 0 16 16">
+                <path
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 
+                  3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 
+                  0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 
+                  12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 
+                  1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 
+                  2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 
+                  0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 
+                  11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 
+                  8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 
+                  1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Import & Export Container Transportation</h3>
+            <p class="service-desc">บริการขนส่งตู้คอนเทนเนอร์นำเข้า–ส่งออก</p>
+          </div>
+        </a>
+
+
+        <a href="container_arrangement.html" class="service-card-link">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="var(--color-primary)" stroke="var(--color-primary)"
+                stroke-width="0.4" class="bi bi-boxes" viewBox="0 0 16 16">
+                <path
+                  d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434zM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567zM7.5 9.933l-2.75 1.571v3.134l2.75-1.571zm1 3.134 2.75 1.571v-3.134L8.5 9.933zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567zm2.242-2.433V3.504L8.5 5.076V8.21zM7.5 8.21V5.076L4.75 3.504v3.134zM5.258 2.643 8 4.21l2.742-1.567L8 1.076zM15 9.933l-2.75 1.571v3.134L15 13.067zM3.75 14.638v-3.134L1 9.933v3.134z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Container Arrangement & Container Yard</h3>
+            <p class="service-desc">บริการจัดการตู้คอนเทนเนอร์และลานตู้สินค้า</p>
+
+          </div>
+        </a>
+
+        <a href="nationwide_distribution.html" class="service-card-link">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="var(--color-primary)" stroke="var(--color-primary)"
+                stroke-width="0.4" class="bi bi-map" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 
+                  0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Nationwide Distribution</h3>
+            <p class="service-desc">บริการกระจายสินค้าทั่วประเทศ</p>
+          </div>
+        </a>
+
+        <a href="truck_fleetsupport.html" class="service-card-link">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="var(--color-primary)" stroke="var(--color-primary)"
+                stroke-width="0.4" class="bi bi-p-square" viewBox="0 0 16 16">
+                <path
+                  d="M5.5 4.002h2.962C10.045 4.002 11 5.104 11 6.586c0 1.494-.967 2.578-2.55 2.578H6.784V12H5.5zm2.77 4.072c.893 0 1.419-.545 1.419-1.488s-.526-1.482-1.42-1.482H6.778v2.97z" />
+                <path
+                  d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Truck Parking & Fleet Support</h3>
+            <p class="service-desc">บริการที่จอดรถบรรทุกและบริหารพื้นที่จอด</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       About Section
+       ============================================ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-content animate-on-scroll">
+          <h2 class="about-title">เกี่ยวกับเรา</h2>
+          <p class="about-text">
+            TNB Logistics เป็นผู้ให้บริการด้านโลจิสติกส์และการขนส่งครบวงจร
+            ให้บริการขนส่งสินค้าภายในประเทศ การขนส่งตู้คอนเทนเนอร์ และงานชัตเทิลระหว่างคลังสินค้า (WH to WH)
+            บริษัทมีสำนักงานและสาขาในพื้นที่ยุทธศาสตร์สำคัญ เช่น บางแสน แหลมฉบัง บางกะดี และลาดกระบัง
+            เพื่อรองรับความต้องการของลูกค้าในภาคอุตสาหกรรมอย่างมีประสิทธิภาพ TNB มุ่งเน้นมาตรฐานการบริการ ความปลอดภัย
+            และความตรงต่อเวลาในทุกกระบวนการขนส่ง
+            พร้อมนำเทคโนโลยีระบบบริหารจัดการการขนส่งมาใช้เพื่อเพิ่มความโปร่งใสและประสิทธิภาพในการทำงาน
+            บริษัทพร้อมเป็นพันธมิตรด้านโลจิสติกส์ที่ลูกค้าไว้วางใจและเติบโตไปพร้อมกันอย่างยั่งยืน
+          </p>
+        </div>
+
+        <div class="packaging-intro-model">
+          <model-viewer src="scr/assets/3d model/truck/low_poly_truck.glb" alt="Truck 3D Model" auto-rotate
+            auto-rotate-delay="0" rotation-per-second="-10deg" disable-zoom interaction-prompt="none"
+            shadow-intensity="1" camera-orbit="45deg 75deg 105%" style="width: 100%; height: 400px">
+          </model-viewer>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================================
+       Customer Logos Section
+       ============================================ -->
+  <section class="section customers-section">
+    <div class="container">
+      <div class="customers animate-on-scroll">
+        <h4 class="customers-title">ลูกค้าที่ไว้วางใจเรา</h4>
+        <div class="logo-slider">
+          <div class="logo-slider-track">
+            <!-- Original logos -->
+            <img src="scr/assets/logo customer/Mazda.png" alt="Mazda" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/Alliance.png" alt="al" class="customer-logo" />
+            <img src="scr/assets/logo customer/CPPC.png" alt="CPPC" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/toshiba.png" alt="toshiba" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/wice.png" alt="wice" class="customer-logo" />
+            <img src="scr/assets/logo customer/Thr.png" alt="Thr" class="customer-logo" />
+            <img src="scr/assets/logo customer/GR.png" alt="GR" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/SRF.png" alt="SRF" class="customer-logo" />
+            <img src="scr/assets/logo customer/tic.png" alt="tic" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/dn.png" alt="DN" class="customer-logo" />
+            <img src="scr/assets/logo customer/lat.png" alt="LAT" class="customer-logo" />
+
+            <!-- Duplicated logos for infinite effect -->
+            <img src="scr/assets/logo customer/Mazda.png" alt="Mazda" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/Alliance.png" alt="al" class="customer-logo" />
+            <img src="scr/assets/logo customer/CPPC.png" alt="CPPC" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/toshiba.png" alt="toshiba" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/wice.png" alt="wice" class="customer-logo" />
+            <img src="scr/assets/logo customer/Thr.png" alt="Thr" class="customer-logo" />
+            <img src="scr/assets/logo customer/GR.png" alt="GR" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/SRF.png" alt="SRF" class="customer-logo" />
+            <img src="scr/assets/logo customer/tic.png" alt="tic" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/dn.png" alt="DN" class="customer-logo" />
+            <img src="scr/assets/logo customer/lat.png" alt="LAT" class="customer-logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Products Section
+       ============================================ -->
+  <section class="section products" id="products">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">ประเภทรถ</h2>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card animate-on-scroll">
+          <div class="product-image">
+            <img src="scr/assets/img/picipjumbo/picup1.png" alt="Pickup Jumbo" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Pickup Jumbo</h3>
+          </div>
+        </div>
+
+        <div class="product-card animate-on-scroll">
+          <div class="product-image">
+            <img src="scr/assets/img/6 wheel/6wheel1.png" alt="6 Wheel" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">6 Wheel</h3>
+          </div>
+        </div>
+
+        <div class="product-card animate-on-scroll">
+          <div class="product-image">
+            <img src="scr/assets/img/6 wheel_trailer/6wheeltrailer_1.png" alt="6 Wheel Trailer" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">6 Wheel Trailer</h3>
+          </div>
+        </div>
+
+        <div class="product-card animate-on-scroll">
+          <div class="product-image">
+            <img src="scr/assets/img/10 wheel_trailer/10wheeltrailer_1.png" alt="10 Wheel Trailer" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">10 Wheel Trailer</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <nav class="footer-nav">
+          <a href="#about" class="footer-link">เกี่ยวกับเรา</a>
+          <a href="branches.html" class="footer-link">สาขา</a>
+          <a href="ourtrucktypes.html" class="footer-link">ประเภทรถ</a>
+        </nav>
+
+
+        <div class="footer-copyright">© 2026 TNB Logistics Co., Ltd. All Rights Reserved</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts.js"></script>
+</body>
+
+</html>
