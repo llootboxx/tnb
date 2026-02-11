@@ -1685,6 +1685,162 @@ p {
   gap: 30px;
 }
 
+.products-carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+}
+
+.products-carousel-track {
+  position: relative;
+  width: 100%;
+  min-height: 380px;
+}
+
+.products-carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.products-carousel-slide.active {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.products-carousel .product-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.products-carousel .product-image {
+  height: 300px;
+  overflow: hidden;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-carousel .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-medium);
+}
+
+.products-carousel .product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.products-carousel .product-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.products-carousel .product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Carousel Arrows */
+.products-carousel-prev,
+.products-carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--color-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-fast);
+  z-index: 10;
+}
+
+.products-carousel-prev {
+  left: 12px;
+}
+
+.products-carousel-next {
+  right: 12px;
+}
+
+.products-carousel-prev:hover,
+.products-carousel-next:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Carousel Dots */
+.products-carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+.products-carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-border);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.products-carousel-dot.active {
+  background: var(--color-primary);
+  transform: scale(1.2);
+}
+
+/* "ดูเพิ่มเติม" Button */
+.products-more-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.products-more-btn a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 36px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: var(--transition-medium);
+  box-shadow: 0 4px 15px rgba(23, 23, 23, 0.3);
+}
+
+.products-more-btn a:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(23, 23, 23, 0.4);
+}
+
+/* Product card fallback (for other pages) */
 .product-card {
   background: var(--color-white);
   border-radius: var(--radius-lg);
@@ -1923,6 +2079,10 @@ p {
 
   .core-services-list {
     grid-template-columns: 1fr;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

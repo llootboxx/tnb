@@ -384,4 +384,79 @@ document.addEventListener("DOMContentLoaded", function () {
       startAutoPlay();
     });
   }
+
+  // ============================================
+  // Products Carousel
+  // ============================================
+  const productsCarousel = document.querySelector(".products-carousel");
+  if (productsCarousel) {
+    const pSlides = productsCarousel.querySelectorAll(".products-carousel-slide");
+    const pDots = productsCarousel.querySelectorAll(".products-carousel-dot");
+    const pPrevBtn = productsCarousel.querySelector(".products-carousel-prev");
+    const pNextBtn = productsCarousel.querySelector(".products-carousel-next");
+    let pCurrentIndex = 0;
+    let pAutoPlayInterval = null;
+
+    function showProductSlide(index) {
+      if (index >= pSlides.length) index = 0;
+      if (index < 0) index = pSlides.length - 1;
+      pCurrentIndex = index;
+
+      pSlides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === pCurrentIndex);
+      });
+
+      pDots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === pCurrentIndex);
+      });
+    }
+
+    function nextProductSlide() {
+      showProductSlide(pCurrentIndex + 1);
+    }
+
+    function prevProductSlide() {
+      showProductSlide(pCurrentIndex - 1);
+    }
+
+    if (pPrevBtn) {
+      pPrevBtn.addEventListener("click", function () {
+        prevProductSlide();
+        resetProductAutoPlay();
+      });
+    }
+
+    if (pNextBtn) {
+      pNextBtn.addEventListener("click", function () {
+        nextProductSlide();
+        resetProductAutoPlay();
+      });
+    }
+
+    pDots.forEach((dot, index) => {
+      dot.addEventListener("click", function () {
+        showProductSlide(index);
+        resetProductAutoPlay();
+      });
+    });
+
+    function startProductAutoPlay() {
+      pAutoPlayInterval = setInterval(nextProductSlide, 5000);
+    }
+
+    function resetProductAutoPlay() {
+      clearInterval(pAutoPlayInterval);
+      startProductAutoPlay();
+    }
+
+    startProductAutoPlay();
+
+    productsCarousel.addEventListener("mouseenter", function () {
+      clearInterval(pAutoPlayInterval);
+    });
+
+    productsCarousel.addEventListener("mouseleave", function () {
+      startProductAutoPlay();
+    });
+  }
 });

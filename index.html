@@ -69,9 +69,9 @@
               <a href="expertise.html" class="dropdown-link">ความเชี่ยวชาญของเรา</a>
             </li>
             <li><a href="vision.html" class="dropdown-link">วิสัยทัศน์</a></li>
-            <li>
+            <!-- <li>
               <a href="performance.html" class="dropdown-link">ผลประกอบการ</a>
-            </li>
+            </li> -->
             <li><a href="organization.html" class="dropdown-link">องค์กร</a></li>
           </ul>
         </li>
@@ -80,7 +80,7 @@
         <li><a href="technology.html" class="nav-link">เทคโนโลยี</a></li>
         <li><a href="branches.html" class="nav-link">สาขา</a></li>
         <li><a href="contact.html" class="nav-link">ติดต่อเรา</a></li>
-        <li><a href="#" class="btn btn-primary">Login ↗</a></li>
+        <!-- <li><a href="#" class="btn btn-primary">Login ↗</a></li> -->
       </ul>
 
       <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
@@ -270,7 +270,7 @@
             <img src="scr/assets/logo customer/Thr.png" alt="Thr" class="customer-logo" />
             <img src="scr/assets/logo customer/GR.png" alt="GR" class="customer-logo" style="height: 55px;" />
             <img src="scr/assets/logo customer/SRF.png" alt="SRF" class="customer-logo" />
-            <img src="scr/assets/logo customer/tic.png" alt="tic" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/tic.jpg" alt="tic" class="customer-logo" style="height: 55px;" />
             <img src="scr/assets/logo customer/dn.png" alt="DN" class="customer-logo" />
             <img src="scr/assets/logo customer/lat.png" alt="LAT" class="customer-logo" />
 
@@ -283,7 +283,7 @@
             <img src="scr/assets/logo customer/Thr.png" alt="Thr" class="customer-logo" />
             <img src="scr/assets/logo customer/GR.png" alt="GR" class="customer-logo" style="height: 55px;" />
             <img src="scr/assets/logo customer/SRF.png" alt="SRF" class="customer-logo" />
-            <img src="scr/assets/logo customer/tic.png" alt="tic" class="customer-logo" style="height: 55px;" />
+            <img src="scr/assets/logo customer/tic.jpg" alt="tic" class="customer-logo" style="height: 55px;" />
             <img src="scr/assets/logo customer/dn.png" alt="DN" class="customer-logo" />
             <img src="scr/assets/logo customer/lat.png" alt="LAT" class="customer-logo" />
           </div>
@@ -301,43 +301,66 @@
         <h2 class="section-title">ประเภทรถ</h2>
       </div>
 
-      <div class="products-grid">
-        <div class="product-card animate-on-scroll">
-          <div class="product-image">
-            <img src="scr/assets/img/picipjumbo/picup1.png" alt="Pickup Jumbo" />
+      <div class="products-carousel animate-on-scroll">
+        <div class="products-carousel-track">
+          <div class="products-carousel-slide active">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="scr/assets/img/picipjumbo/picup1.png" alt="Pickup Jumbo" />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Pickup Jumbo</h3>
+              </div>
+            </div>
           </div>
-          <div class="product-info">
-            <h3 class="product-name">Pickup Jumbo</h3>
+
+          <div class="products-carousel-slide">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="scr/assets/img/6 wheel/6wheel1.png" alt="6 Wheel" />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">6 Wheel</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="products-carousel-slide">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="scr/assets/img/6 wheel_trailer/6wheeltrailer_1.png" alt="6 Wheel Trailer" />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">6 Wheel Trailer</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="products-carousel-slide">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="scr/assets/img/10 wheel_trailer/10wheeltrailer_1.png" alt="10 Wheel Trailer" />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">10 Wheel Trailer</h3>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="product-card animate-on-scroll">
-          <div class="product-image">
-            <img src="scr/assets/img/6 wheel/6wheel1.png" alt="6 Wheel" />
-          </div>
-          <div class="product-info">
-            <h3 class="product-name">6 Wheel</h3>
-          </div>
-        </div>
+        <button class="products-carousel-prev" aria-label="Previous">&#10094;</button>
+        <button class="products-carousel-next" aria-label="Next">&#10095;</button>
 
-        <div class="product-card animate-on-scroll">
-          <div class="product-image">
-            <img src="scr/assets/img/6 wheel_trailer/6wheeltrailer_1.png" alt="6 Wheel Trailer" />
-          </div>
-          <div class="product-info">
-            <h3 class="product-name">6 Wheel Trailer</h3>
-          </div>
+        <div class="products-carousel-dots">
+          <span class="products-carousel-dot active" data-index="0"></span>
+          <span class="products-carousel-dot" data-index="1"></span>
+          <span class="products-carousel-dot" data-index="2"></span>
+          <span class="products-carousel-dot" data-index="3"></span>
         </div>
+      </div>
 
-        <div class="product-card animate-on-scroll">
-          <div class="product-image">
-            <img src="scr/assets/img/10 wheel_trailer/10wheeltrailer_1.png" alt="10 Wheel Trailer" />
-          </div>
-          <div class="product-info">
-            <h3 class="product-name">10 Wheel Trailer</h3>
-          </div>
-        </div>
-
+      <div class="products-more-btn animate-on-scroll">
+        <a href="ourtrucktypes.html">ดูเพิ่มเติม →</a>
       </div>
     </div>
   </section>
