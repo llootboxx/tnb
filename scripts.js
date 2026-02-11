@@ -1,5 +1,5 @@
 /* ============================================
-   KOCH Packaging Website - JavaScript
+   TNB Logistics Website - JavaScript
    ============================================ */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -294,13 +294,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Console Welcome Message
   // ============================================
   console.log(
-    "%c KOCH Packaging ",
+    "%c TNB Logistics ",
     "background: #282B79; color: white; font-size: 24px; padding: 10px;",
   );
-  console.log(
-    "%c Smart, Fast, and Sustainable! ",
-    "color: #1A1A2E; font-size: 14px;",
-  );
+
 
   // ============================================
   // Warehouse Carousel
