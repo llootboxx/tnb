@@ -1,0 +1,24 @@
+# robots.txt for TNB Logistics
+# https://tnb-logistics-management.com/
+
+User-agent: *
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Facebook
+User-agent: Facebot
+Allow: /
+
+# Sitemap
+Sitemap: https://tnb-logistics-management.com/sitemap.xml
