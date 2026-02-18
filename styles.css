@@ -3097,3 +3097,57 @@ p {
     padding: 60px 20px;
   }
 }
+
+/* ============================================
+   Language Toggle Button
+   ============================================ */
+.nav-lang-switcher {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.lang-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 16px;
+  border: 2px solid var(--color-primary);
+  border-radius: 50px;
+  background: transparent;
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: "Sarabun", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.lang-toggle-btn:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.lang-toggle-btn .lang-flag {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* Mobile: language toggle in hamburger menu */
+@media (max-width: 1024px) {
+  .nav-lang-switcher {
+    width: 100%;
+    justify-content: center;
+    margin: 15px 0 5px;
+    padding: 0;
+  }
+
+  .lang-toggle-btn {
+    width: 80%;
+    justify-content: center;
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+}
