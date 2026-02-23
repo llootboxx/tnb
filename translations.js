@@ -30,6 +30,7 @@ const translations = {
   "footer.about": { th: "เกี่ยวกับเรา", en: "About Us" },
   "footer.branches": { th: "สาขา", en: "Branches" },
   "footer.trucktypes": { th: "ประเภทรถ", en: "Truck Types" },
+  "footer.contact": { th: "ติดต่อเรา", en: "Contact Us" },
 
   // ============================================
   // Shared: Back button
@@ -167,8 +168,8 @@ const translations = {
   // ============================================
   "company.title": { th: "ประวัติบริษัท", en: "Company History" },
   "company.desc1": {
-    th: "บริษัท ทีเอ็นบี โลจิสติกส์ จำกัด ก่อตั้งขึ้นเมื่อวันที่ 14 ตุลาคม 2563 ให้บริการด้านโลจิสติกส์และการขนส่งแบบครบวงจร ครอบคลุมการขนส่งภายในประเทศและระหว่างประเทศ เพื่อตอบโจทย์ความต้องการของลูกค้าในภาคอุตสาหกรรมและองค์กรธุรกิจ",
-    en: "TNB Logistics Co., Ltd. was established on October 14, 2020, providing comprehensive logistics and transportation services covering both domestic and international transportation to meet the needs of industrial and business customers."
+    th: "<strong>บริษัท ทีเอ็นบี โลจิสติกส์ จำกัด</strong> ก่อตั้งขึ้นเมื่อวันที่ 14 ตุลาคม 2563 ให้บริการด้านโลจิสติกส์และการขนส่งแบบครบวงจร ครอบคลุมการขนส่งภายในประเทศและระหว่างประเทศ เพื่อตอบโจทย์ความต้องการของลูกค้าในภาคอุตสาหกรรมและองค์กรธุรกิจ",
+    en: "<strong>TNB Logistics Co., Ltd.</strong> was established on October 14, 2020, providing comprehensive logistics and transportation services covering both domestic and international transportation to meet the needs of industrial and business customers."
   },
   "company.desc2": {
     th: "บริษัทเริ่มต้นด้วยทุนจดทะเบียน 1,000,000 บาท และได้เปลี่ยนชื่อเป็น บริษัท ทีเอ็นบี โลจิสติกส์ จำกัด เมื่อวันที่ 22 สิงหาคม 2566 พร้อมเพิ่มทุนจดทะเบียนเป็น 5,000,000 บาท เพื่อรองรับการขยายธุรกิจและการเติบโตอย่างต่อเนื่อง",
@@ -207,6 +208,11 @@ const translations = {
   "expertise.item4.desc": {
     th: "บริษัทมีประสบการณ์ให้บริการแก่ลูกค้าภาคอุตสาหกรรม โดยเฉพาะกลุ่มยานยนต์ อิเล็กทรอนิกส์ และสินค้าอุตสาหกรรมอื่น ๆ ด้วยมาตรฐานการทำงานที่เน้นคุณภาพ ความปลอดภัย และความตรงต่อเวลา",
     en: "The company has experience serving industrial customers, especially in the automotive, electronics, and other industrial sectors, with work standards emphasizing quality, safety, and punctuality."
+  },
+  "expertise.item5.title": { th: "ความปลอดภัยและมาตรฐานการดำเนินงาน", en: "Safety and Operational Standards" },
+  "expertise.item5.desc": {
+    th: "TNB ให้ความสำคัญสูงสุดกับความปลอดภัยในการขนส่ง โดยมีระบบตรวจสอบพฤติกรรมการขับขี่ การตรวจสภาพรถก่อนใช้งาน การฝึกอบรมพนักงานขับรถ และมาตรฐานความปลอดภัยที่สอดคล้องกับข้อกำหนดของลูกค้าองค์กรและภาคอุตสาหกรรม<br><br>บริษัทมุ่งเน้นการควบคุมความเสี่ยงและการป้องกันอุบัติเหตุเชิงระบบ เพื่อให้การดำเนินงานมีความปลอดภัย โปร่งใส และเชื่อถือได้ในระยะยาว",
+    en: "TNB places the highest priority on transportation safety, with systems for monitoring driving behavior, pre-use vehicle inspections, driver training, and safety standards that comply with the requirements of corporate clients and the industrial sector.<br><br>The company focuses on systematic risk control and accident prevention to ensure safe, transparent, and reliable long-term operations."
   },
 
   // ============================================

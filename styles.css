@@ -2684,7 +2684,7 @@ p {
 }
 
 .section-title span {
-  color: #2563eb;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -2700,7 +2700,7 @@ p {
 }
 
 .section-title span {
-  color: #2563eb;
+  color: #000000;
 }
 
 /* ===== LAYOUT ===== */
@@ -2764,7 +2764,8 @@ p {
 }
 
 .no {
-  min-width: 38px;
+  flex: 0 0 38px;
+  width: 38px;
   height: 38px;
   background: var(--color-primary);
   color: #fff;
@@ -2773,6 +2774,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-start;
 }
 
 .emp {
