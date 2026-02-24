@@ -18,6 +18,7 @@ const translations = {
   "nav.company": { th: "บริษัท TNB", en: "TNB Company" },
   "nav.expertise": { th: "ความเชี่ยวชาญของเรา", en: "Our Expertise" },
   "nav.vision": { th: "วิสัยทัศน์", en: "Vision" },
+  "nav.safety": { th: "มาตรฐานความปลอดภัย", en: "Safety Standards" },
   "nav.partners": { th: "พันธมิตร", en: "Partners" },
   "nav.trucktypes": { th: "ประเภทรถ", en: "Truck Types" },
   "nav.technology": { th: "เทคโนโลยี", en: "Technology" },
@@ -213,6 +214,56 @@ const translations = {
   "expertise.item5.desc": {
     th: "TNB ให้ความสำคัญสูงสุดกับความปลอดภัยในการขนส่ง โดยมีระบบตรวจสอบพฤติกรรมการขับขี่ การตรวจสภาพรถก่อนใช้งาน การฝึกอบรมพนักงานขับรถ และมาตรฐานความปลอดภัยที่สอดคล้องกับข้อกำหนดของลูกค้าองค์กรและภาคอุตสาหกรรม<br><br>บริษัทมุ่งเน้นการควบคุมความเสี่ยงและการป้องกันอุบัติเหตุเชิงระบบ เพื่อให้การดำเนินงานมีความปลอดภัย โปร่งใส และเชื่อถือได้ในระยะยาว",
     en: "TNB places the highest priority on transportation safety, with systems for monitoring driving behavior, pre-use vehicle inspections, driver training, and safety standards that comply with the requirements of corporate clients and the industrial sector.<br><br>The company focuses on systematic risk control and accident prevention to ensure safe, transparent, and reliable long-term operations."
+  },
+
+  // ============================================
+  // Safety Standards Page
+  // ============================================
+  "safety.title": { th: "มาตรฐานความปลอดภัย", en: "Safety Standards" },
+  "safety.subtitle": { th: "นโยบายการบริหารจัดการด้านความปลอดภัย", en: "Safety Management Policy" },
+  "safety.desc": { 
+    th: "TNB Logistics Co., Ltd. ให้ความสำคัญสูงสุดกับความปลอดภัยในการดำเนินงานขนส่งสินค้า โดยมุ่งมั่นดำเนินธุรกิจภายใต้มาตรฐานความปลอดภัยที่เป็นระบบ ครอบคลุมบุคลากร ยานพาหนะ สินค้า และผู้มีส่วนเกี่ยวข้องทุกภาคส่วน เพื่อให้มั่นใจว่าการให้บริการเป็นไปอย่างปลอดภัย มีประสิทธิภาพ และเป็นไปตามข้อกำหนดทางกฎหมายที่เกี่ยวข้อง", 
+    en: "TNB Logistics Co., Ltd. places the highest priority on safety in freight transportation operations. We are committed to conducting business under systematic safety standards covering personnel, vehicles, cargo, and all related parties to ensure services are safe, efficient, and compliant with relevant legal requirements." 
+  },
+  "safety.item1.title": { th: "การปฏิบัติตามกฎหมายและการควบคุมการปฏิบัติงาน", en: "Regulatory Compliance & Operational Control" },
+  "safety.item1.desc": { 
+    th: "<li>ปฏิบัติตามกฎหมายจราจร ข้อกำหนดท่าเรือ และระเบียบด้านโลจิสติกส์อย่างเคร่งครัด</li><li>ตรวจสอบเอกสารการขนส่งครบถ้วนก่อนเริ่มปฏิบัติงาน</li><li>ควบคุมกระบวนการรับ–ส่งมอบสินค้า พร้อมรายงานเหตุผิดปกติตามขั้นตอนบริษัท</li>", 
+    en: "<li>Strictly comply with traffic laws, port regulations, and logistics rules</li><li>Verify all transportation documents comprehensively before starting work</li><li>Control pickup and delivery processes, and report any irregularities according to company procedures</li>" 
+  },
+  "safety.item2.title": { th: "การบริหารความปลอดภัยและศักยภาพพนักงานขับรถ", en: "Driver Safety & Competency Management" },
+  "safety.item2.desc": { 
+    th: "<li>คัดเลือกพนักงานขับรถที่มีใบอนุญาตถูกต้องและผ่านการอบรมด้านความปลอดภัย</li><li>ตรวจสอบความพร้อมก่อนปฏิบัติงาน และควบคุมชั่วโมงการทำงานอย่างเหมาะสม</li><li>ติดตามและประเมินพฤติกรรมการขับขี่อย่างต่อเนื่อง</li>", 
+    en: "<li>Select drivers with valid licenses who have passed safety training</li><li>Check readiness before work and properly control working hours</li><li>Continuously monitor and evaluate driving behavior</li>" 
+  },
+  "safety.item3.title": { th: "การควบคุมความปลอดภัยยานพาหนะและการบำรุงรักษาเชิงป้องกัน", en: "Fleet Safety & Preventive Maintenance" },
+  "safety.item3.desc": { 
+    th: "<li>ตรวจสอบสภาพรถก่อนและหลังการใช้งาน (Pre & Post Inspection)</li><li>บำรุงรักษารถตามรอบระยะเวลาอย่างสม่ำเสมอ</li><li>เตรียมความพร้อมอุปกรณ์ยึดตรึงสินค้าและรถสำรองกรณีฉุกเฉิน</li>", 
+    en: "<li>Conduct vehicle inspections before and after use (Pre & Post Inspection)</li><li>Perform regular maintenance according to schedule</li><li>Prepare cargo securing equipment and backup vehicles for emergencies</li>" 
+  },
+  "safety.item4.title": { th: "การควบคุมความปลอดภัยและความสมบูรณ์ของสินค้า", en: "Cargo Security & Integrity Control" },
+  "safety.item4.desc": { 
+    th: "<li>ตรวจสอบสภาพตู้คอนเทนเนอร์ก่อนรับและส่งมอบ</li><li>ควบคุมกระบวนการ Loading และ Unloading ตามมาตรฐาน</li><li>จัดเก็บเอกสารยืนยันการส่งมอบเพื่อความโปร่งใสและตรวจสอบย้อนหลังได้</li>", 
+    en: "<li>Inspect container condition before receiving and delivering</li><li>Control Loading and Unloading processes according to standards</li><li>Store delivery confirmation documents for transparency and traceability</li>" 
+  },
+  "safety.item5.title": { th: "การใช้เทคโนโลยีเพื่อควบคุมความปลอดภัย", en: "Technology-Based Safety Monitoring" },
+  "safety.item5.desc": { 
+    th: "<li>ระบบติดตามสถานะงานและยานพาหนะแบบ Real-Time</li><li>ระบบกล้องหน้ารถและกล้องตรวจจับพฤติกรรมการขับขี่</li><li>ใช้ระบบแจ้งเตือนอัตโนมัติและควบคุมพื้นที่ปฏิบัติงาน (Geofencing)</li>", 
+    en: "<li>Real-time job and vehicle tracking system</li><li>Front-facing cameras and driver behavior detection cameras</li><li>Use automated alert systems and operational area control (Geofencing)</li>" 
+  },
+  "safety.ppe.title": { th: "มาตรฐานการแต่งกายและอุปกรณ์ป้องกันส่วนบุคคล", en: "Personal Protective Equipment (PPE) Standards" },
+  "safety.ppe.desc": { 
+    th: "บริษัทกำหนดมาตรฐานการแต่งกายและการใช้อุปกรณ์ป้องกันส่วนบุคคล (PPE) สำหรับพนักงานทุกคนที่ปฏิบัติงานในพื้นที่คลังสินค้า ท่าเรือ พื้นที่ขนถ่ายสินค้า และหน้างานลูกค้า เพื่อป้องกันอุบัติเหตุ ลดความเสี่ยงจากสภาพแวดล้อมการทำงาน และสร้างมาตรฐานความปลอดภัยเดียวกันทั้งองค์กร", 
+    en: "The company establishes dress and Personal Protective Equipment (PPE) standards for all employees working in warehouses, ports, loading areas, and customer sites to prevent accidents, reduce operational risks, and create a unified safety standard across the organization." 
+  },
+  "safety.ppe.item1.title": { th: "พนักงานที่ปฏิบัติงานภาคสนามต้องสวมใส่อุปกรณ์ดังต่อไปนี้อย่างครบถ้วน", en: "Field staff must completely wear the following equipment" },
+  "safety.ppe.item1.desc": { 
+    th: "<li><strong>หมวกนิรภัย</strong> – ป้องกันแรงกระแทกจากวัตถุตกหล่น</li><li><strong>แว่นตานิรภัย</strong> – ป้องกันเศษวัสดุหรือฝุ่นละออง</li><li><strong>เสื้อกั๊กสะท้อนแสง</strong> – เพิ่มการมองเห็นในพื้นที่ปฏิบัติงาน</li><li><strong>ถุงมือนิรภัย</strong> – ป้องกันการบาดเจ็บจากการจับยึดหรือขนย้ายสินค้า</li><li><strong>รองเท้านิรภัยหัวเหล็ก</strong> – ป้องกันการกระแทกและการเหยียบของมีคม</li>", 
+    en: "<li><strong>Safety Helmet</strong> – Protects against impacts from falling objects</li><li><strong>Safety Glasses</strong> – Protects against debris or dust</li><li><strong>High Visibility Vest</strong> – Increases visibility in work areas</li><li><strong>Safety Gloves</strong> – Protects against injuries during handling or moving cargo</li><li><strong>Steel-Toed Safety Shoes</strong> – Protects against impacts and stepping on sharp objects</li>" 
+  },
+  "safety.ppe.item2.title": { th: "การควบคุมและกำกับดูแลการสวมใส่ PPE", en: "PPE Compliance & Control" },
+  "safety.ppe.item2.desc": { 
+    th: "<li>พนักงานต้องสวมใส่ PPE ครบถ้วนก่อนเข้าพื้นที่ปฏิบัติงาน</li><li>หัวหน้างานมีหน้าที่ตรวจสอบความถูกต้องและความพร้อมก่อนเริ่มงาน</li><li>กำหนดจุดตรวจ PPE ในพื้นที่เสี่ยง</li><li>ไม่อนุญาตให้ปฏิบัติงานหากไม่สวมใส่อุปกรณ์ตามข้อกำหนด</li>", 
+    en: "<li>Employees must fully wear PPE before entering work areas</li><li>Supervisors are responsible for checking appropriateness and readiness before starting work</li><li>Set PPE check points in risk areas</li><li>Work is not permitted without required equipment</li>" 
   },
 
   // ============================================

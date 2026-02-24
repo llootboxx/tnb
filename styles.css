@@ -2954,15 +2954,15 @@ p {
 
 /* Page-specific images - domestic.html */
 .port-img {
-  background-image: url("scr/assets/img/other/Inboundlogistics.png");
+  background-image: url("scr/assets/img/other/Inboundlogistics.webp");
 }
 
 .container-img {
-  background-image: url("scr/assets/img/other/distributioncenter.png");
+  background-image: url("scr/assets/img/other/distributioncenter.webp");
 }
 
 .delivery-img {
-  background-image: url("scr/assets/img/other/outboundlogistics.png");
+  background-image: url("scr/assets/img/other/outboundlogistics.webp");
 }
 
 /* Page-specific images - shuttletruckservice.html */
@@ -2980,53 +2980,53 @@ p {
 
 /* Page-specific images - import-export.html */
 .port-img {
-  background-image: url("scr/assets/img/other/portterminal.png");
+  background-image: url("scr/assets/img/other/portterminal.webp");
 }
 
 .container-img {
-  background-image: url("scr/assets/img/other/containertransportation.png");
+  background-image: url("scr/assets/img/other/containertransportation.webp");
 }
 
 .deliverys-img {
-  background-image: url("scr/assets/img/other/factorywarehouse.png");
+  background-image: url("scr/assets/img/other/factorywarehouse.webp");
 }
 
 
 /* Page-specific images - container_arrangement.html */
 .receive-img {
-  background-image: url("scr/assets/img/other/containerreceiving.png");
+  background-image: url("scr/assets/img/other/containerreceiving.webp");
 }
 
 .yard-img {
-  background-image: url("scr/assets/img/other/containeryard.png");
+  background-image: url("scr/assets/img/other/containeryard.webp");
 }
 
 .dispatch-img {
-  background-image: url("scr/assets/img/other/containerdispatch.png");
+  background-image: url("scr/assets/img/other/containerdispatch.webp");
 }
 
 
 /* Page-specific images - nationwide_distribution.html */
 .firstmile-img {
-  background-image: url("scr/assets/img/other/firstmiledelivery.png");
+  background-image: url("scr/assets/img/other/firstmiledelivery.webp");
 }
 
 .middlemile-img {
-  background-image: url("scr/assets/img/other/middlemiledistribution.png");
+  background-image: url("scr/assets/img/other/middlemiledistribution.webp");
 }
 
 .lastmile-img {
-  background-image: url("scr/assets/img/other/lastmiledelivery.png");
+  background-image: url("scr/assets/img/other/lastmiledelivery.webp");
 }
 
 
 /* Page-specific images - truck_fleetsupport.html */
 .parking-img {
-  background-image: url("scr/assets/img/other/truckparking2.png");
+  background-image: url("scr/assets/img/other/truckparking2.webp");
 }
 
 .fleet-img {
-  background-image: url("scr/assets/img/other/fleetmanagement.png");
+  background-image: url("scr/assets/img/other/fleetmanagement.webp");
 }
 
 .support-img {
