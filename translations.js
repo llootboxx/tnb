@@ -370,7 +370,7 @@ const translations = {
     en: "We are ready to provide comprehensive, modern logistics consultation and services to meet all your business needs. Contact us for more information through the channels below."
   },
   "contact.address.label": { th: "ที่อยู่", en: "Address" },
-  "contact.address.value": { th: "120 หมู่ที่ 1 ตำบลเหมือง อำเภอเมืองชลบุรี จังหวัดชลบุรี 20130", en: "120 Moo 1, Mueang Sub-district, Mueang Chonburi District, Chonburi 20130" },
+  "contact.address.value": { th: "18/2 หมู่ที่ 5 ตำบลเหมือง อำเภอเมืองชลบุรี จังหวัดชลบุรี 20130", en: "18/2 Moo 5, Mueang Sub-district, Mueang Chonburi District, Chonburi 20130" },
   "contact.phone.label": { th: "โทรศัพท์", en: "Phone" },
   "contact.email.label": { th: "อีเมล", en: "Email" },
 };
