@@ -1,5 +1,5 @@
 # robots.txt for TNB Logistics
-# https://tnb-logistics-management.com/
+# https://tnb-logistics.com/
 
 User-agent: *
 Allow: /
@@ -21,4 +21,4 @@ User-agent: Facebot
 Allow: /
 
 # Sitemap
-Sitemap: https://tnb-logistics-management.com/sitemap.xml
+Sitemap: https://tnb-logistics.com/sitemap.xml
